@@ -43,7 +43,7 @@ th:hover{color: white;} .header{margin-left: 100px;}
 #starter{ padding-left:30px; border-left:  1px solid gray;}
 /* th:hover {background-color: #f5f5f5;border-radius: 50%; opacity:75%;} */
 
-nav{
+nav, #articles,{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-gap: auto;
@@ -112,4 +112,18 @@ iframe{
     top: 80px;
     right: 12px;
     color: gray;
+}
+
+.blogPosts{
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    grid-gap: auto;
+    height: 200px;
+    border-top-left-radius: 2px;
+    border-top-right-radius: 2px;
+
+}
+
+#videos{
+    display: flex;
 }
