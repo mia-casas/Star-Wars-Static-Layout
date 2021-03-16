@@ -26,6 +26,7 @@ table {
     text-align: center;
     border-top: 1px solid gray; width: 100%;
     border-bottom: 1px solid gray; width: 100%;
+    
 
 }
 .table{
@@ -33,14 +34,18 @@ table {
     padding-left: 40px;
     width: 500px;
     height: 40px;
-    border-right: 1px solid gray;
     align-items: center;
     font-size: 14px;
     white-space: nowrap;
+    color:gray;
+    text-transform: uppercase;
+    font-size: medium;;
 
-}
+} .table:hover{color: white}
 th:hover{color: white;} .header{margin-left: 100px;}
-#starter{ padding-left:30px; border-left:  1px solid gray;}
+#starter{ padding-left:30px;  color: gray; text-transform: uppercase; font-size: medium;}
+#starter:hover{color:white}
+#leftBorder{ border-left: 1px solid gray; border-right: 1px solid gray;} #rightBorder{border-right: 1px solid gray;}
 /* th:hover {background-color: #f5f5f5;border-radius: 50%; opacity:75%;} */
 
 nav{
@@ -116,19 +121,42 @@ iframe{
 }
 
 .blogPosts{
-    margin: auto;
     border-top-left-radius: 2px;
     border-top-right-radius: 2px;
     display: flex;
-    height: 200px;
+    height: 290px;
+    margin:1em;
 
 }
-
-#videos{
+.blogInfo{
+    background-color: #404040;
+    padding: 10px;
     display: flex;
-    margin: auto;
-    flex-grow: 1, 1;
+    flex-direction: row;
+    margin: 1em;
+    font-size: large;
+    font-weight: bold;
 }
-/* #articles{
-    
-} */
+.videos{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+#articles{
+    display: flex;
+    flex-direction: row;
+    width:30%;   
+    flex: 30%;
+    align-content:space-evenly;
+}
+a{  text-decoration: none; text-transform: none; border:none;}
+
+.iframeInfo{
+    /* display:flex; 
+    flex-direction: column;  */
+    width:50%; 
+    background-color: #404040;
+    text-align: justify;
+    margin: 5px;
+    padding: 8px;
+    color: grey;
+} 

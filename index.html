@@ -16,7 +16,7 @@
             <a href="https://starwars.tumblr.com/" target="blank" id='tumblr'><img class="socMed" src="https://icons-for-free.com/iconfiles/png/512/tumblr-1320567790836482772.png"></a>
             <a href="https://twitter.com/starwars" target="blank" id="twitter"><img class="socMed" src="https://www.pinclipart.com/picdir/big/111-1111585_2018-the-affair-an-occasional-discussion.png" alt=""></a>
             <a href="https://www.youtube.com/user/starwars" target="blank" id='youtube'><img class="socMed" src="http://assets.stickpng.com/thumbs/580b57fcd9996e24bc43c545.png" alt=""></a>
-            <a href="https://lol.disney.com/star-wars" target="blank" id='disney'><img class="socMed" src="../staticLayout/staticLayoutAssets/pbskids.png" alt=""></a>
+            <a href="https://lol.disney.com/star-wars" target="blank" id='disney'><img class="socMed" src="./staticLayoutAssets/pbskids.png" alt=""></a>
         </div>
 
 
@@ -44,13 +44,13 @@
      <table> 
         <thead class ="header">
             <tr>
-                <th id="starter" class="table">News + Blog</th>
-                <th class="table">Video</th>
-                <th class="table">Films</th>
-                <th class="table">Series</th>
-                <th class="table"> Interactive</th>
-                <th class="table">Community</th>
-                <th class="table">Databank</th>
+                <th id="leftBorder" class="table"><a id="starter"  href="#latestNews">News + Blog</a></th>
+                <th id ="rightBorder"><a href="#latestVideo" class="table">Video</a></th>
+                <th id="rightBorder" class="table">Films</th>
+                <th id="rightBorder" class="table">Series</th>
+                <th id="rightBorder" class="table"> Interactive</th>
+                <th id="rightBorder" class="table">Community</th>
+                <th id="rightBorder" class="table">Databank</th>
             </tr>
         </thead>
     </table>     
@@ -59,29 +59,37 @@
 <h5>Star Wars streaming anytime on Disney+ </h5>
     <img class="slideshow" src="./staticLayoutAssets/Star Wars 1.png" alt="This week in Star Wars">
 
-    <h2>Latest News + Blog ></h2>
+    <h2 id="latestNews">Latest News + Blog ></h2>
     <div id="articles">
+        <div class="box">
         <img class = "blogPosts" src="https://lumiere-a.akamaihd.net/v1/images/604f5c25230e6a00014350f0-image_aff83091.jpeg?region=0%2C0%2C1536%2C864" alt="star wars monsters">
-        <p></p>
+        <p class="blogInfo">   A Jedi Rides a Rancor on the Cover of Marvel's Star Wars: The High Republic #6, and It's Amazing - Exclusive Reveal</p>
+        </div>
  
-  
+        <div class="box">
         <img class = "blogPosts" src="https://lumiere-a.akamaihd.net/v1/images/604b75b575f0ef00018e55fb-image_fb6d189c.jpeg?region=336%2C0%2C864%2C864" alt="good doggos">
-        <p></p>
-  
+        <p class="blogInfo">6 Galactically Good "Doggos" of Star Wars</p>
+        </div>
+        
+        <div class ="box">
         <img class = "blogPosts" src="https://lumiere-a.akamaihd.net/v1/images/5b605ed14d53200001463d64-image_4a342588.jpeg?region=336%2C0%2C864%2C864" alt="Clone Wars series">
-        <p></p>
+        <p class="blogInfo">UPDATED: We're Rewatching Star Wars: The Clone Wars!</p>
+        </div>
     </div>
 
 
-    <h2>Latest Video ></h2>
-    <div id="videos">
+    <h2 id="latestVideo">Latest Video ></h2>
+    <div id="videoClips">
+    <div class="videos">
         <iframe src="https://www.starwars.com/embed/5bd46c2968f2aebd6b4f2a72"></iframe>
-        <h6></h6>
-        <p></p>
-
+        <p class="iframeInfo">The Ohnake Gang Teams Up, Clone Wars Rewatch Ends, and More!</p>
+        <p class="iframeInfo">This week in Star Wars, we take a look at Marvel's Bounty Hunters #10, celebrate International Women's Day on the Comlink, and say goodbye to The Clone Wars Rewatch on StarWars.com. Plus, we keep the Star Wars: The Clone Wars love going and jump back to 2012 when Maul made his triumohant return to the screen. </p>
+</div>
+    <div class="videos">
         <iframe src="https://www.starwars.com/embed/5bcbae5973931ebd6b4f2a72"></iframe>
-        <h6></h6>
-        <p></p>
+        <p class="iframeInfo"></p>
+        <p class="iframeInfo"></p>
+    </div>    
     </div>
     
 </body>
